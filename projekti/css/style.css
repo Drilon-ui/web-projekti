@@ -1,0 +1,673 @@
+
+
+body{
+	margin:0px;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:200%;
+	vertical-align:baseline;
+	font-family: Trebuchet MS, Arial;
+	color:rgb(79, 79, 79);
+	line-height: 15px;
+	
+}
+
+
+#container{
+	width: 95%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding: 5px;
+	background: url(../images/background.png)no-repeat;
+	background-size: cover;
+    margin-top: -40px;
+	/*max-width: 100%;
+	padding: 39px;*/
+	overflow: auto;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+nav {
+	width: 100%;
+	padding-bottom: 300px;
+	background: url(../images/header-background.png);
+}
+
+#nav-header{
+    margin-top: -30px;
+}
+
+
+#web {
+	float: left;
+	margin:10px;
+	padding-left: 100px;
+	padding-top: 20px;
+	font-size: 40px;
+  font-family: "NationalCodePiStd";
+  color: rgb(255, 255, 255);
+ /*line-height: 1.125;
+  text-align: center;
+  position: relative;
+  left: 238.938px;
+  top: 83.524px;
+  z-index: 27;*/
+
+}
+
+nav ul{
+	float: right;
+	margin:15px 15px 0px 0px;
+	padding-right: 10px;
+	font-size: 40px;
+  font-family: "NationalCodePiStd";
+  color: rgb(255, 255, 255);
+  /*line-height: 1.125;
+  text-align: center;
+  position: relative;
+  right: 238.938px;
+  top: 20.524px;
+  z-index: 27;*/
+}
+nav ul li{
+	font-size: 15px;
+	display: inline-block;
+	margin-right: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+nav ul li a{
+	color: white;
+	border: 1px black solid;
+	border-radius: 5px;
+	padding: 1px 1px;
+
+}
+
+nav h1{
+	position: relative;
+	color: white;
+	font-family: "MuseoSlab";
+	top: 150px;
+	padding-left:300px;
+	font-size: 35px;
+
+}
+
+
+
+}  
+        .showSlide {  
+            display: none;  
+        }  
+            .showSlide img {  
+                width: 100%;  
+            }  
+        .slidercontainer {  
+            max-width: 95%;  
+            position: relative;  
+            margin: -150px auto auto auto;  
+
+        }  
+        .left, .right {  
+            cursor: pointer;  
+            position: absolute;  
+            top: 50%;  
+            width: auto;  
+            padding: 16px;  
+            margin-top: -22px;  
+            color: white;  
+            font-weight: bold;  
+            font-size: 25px;  
+            transition: 0.6s ease;  
+            border-radius: 0 3px 3px 0;  
+        }  
+        .right {  
+            right: 0;  
+            border-radius: 3px 0 0 3px;  
+        }  
+            .left:hover, .right:hover {  
+                background-color: rgba(115, 115, 115, 0.8);  
+            }  
+        .content {  
+            color: #eff5d4;  
+            font-size: 30px;  
+            padding: 8px 12px;  
+            position: absolute;  
+            top: 10px;  
+            width: 100%;  
+            text-align: center;  
+        }  
+    /*    .active {  
+            background-color: #717171;  
+        }  
+        /* Fading animation */  
+        .fade {  
+            -webkit-animation-name: fade;  
+            -webkit-animation-duration: 1.5s;  
+            animation-name: fade;  
+            animation-duration: 1.5s;  
+        }  
+        @-webkit-keyframes fade {  
+            from {  
+                opacity: .4  
+            }  
+            to {  
+                opacity: 1  
+            }  
+        }  
+  
+        @keyframes fade {  
+            from {  
+                opacity: .4  
+            }  
+            to {  
+                opacity: 1  
+            }  
+        }
+
+#contentt{
+
+	width: 50%
+	padding: 0px 50px 30px 50px;
+	background-color: white;
+	float: center;
+	margin: auto auto auto 26px; 
+}
+#contentt .A{
+	float: left;
+	padding: 0 8px 0 9px;
+	width: 31.5%;
+	
+
+}
+#contentt .A .AA{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+    color: #9022af;
+}
+#contentt .A p{
+	font-size: 13px;
+	line-height: 22px;
+	font-family: Arial;
+}
+#contentt img{
+	width: 100%;
+	float: none;
+	clear:none;
+}
+#contentt .minibutton{
+	padding:8px 0;
+	font-family:nevis;
+	font-size:15px;
+	font-weight: bold;
+	color: rgb(108,108,108);
+	width: 125px;
+	border:solid lightgrey 1px;
+	border-radius: 5px;
+	background-image: linear-gradient(white, rgb(192, 192, 192));
+}
+
+footer{
+	float:center;
+	border-radius: 0 0 9.5px 9.5px;
+	background-color:white;
+
+}
+.f1{
+	border:1px groove(white,grey);
+	padding-left: 34px;
+	width: 16%;
+	float: left;
+	font-family: Arial;
+}
+.fdiv #f2{
+	width: 375px;
+}
+.f1 p{
+	font-size: 11px;
+	line-height: 20px;
+	color: rgb(	88, 88, 88);
+}
+#fdiv{
+	margin-top: 50px;
+	border-top: groove 2px white;
+	float: right;
+	border-bottom: groove 2px white;
+	width: 100%;
+}
+#f1{
+	float: left;
+}
+#f2{
+	float: right;
+}
+
+p{
+    font-size: 20px;
+}
+
+/* 
+    ABOUT CSS//
+
+
+*/
+.mission{
+    border-style: solid;
+    margin-top: -10px;
+    border-bottom:solid;
+    border-top: hidden;
+}
+.mission h1 , .about h1 {
+        font-size: 50px;
+        padding-top: 30px;
+        padding-left: 250px;
+
+    }
+
+    .mission p , .about p {
+        color: #322d2d;
+        line-height: 22px;
+        font-size: 17px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+#facebook {
+        margin-left: 250px;
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+ .about-gray-line {
+        margin-top: -15px;
+        height: 50px;
+        background-color: #d0d0d7;
+    }
+ .about{
+    border-style: dotted solid;
+    border-top: hidden;
+    border-bottom: hidden;
+    margin-top: -30px;
+ }
+ .about h3{
+    margin-left: 250px;
+ }
+
+/* 
+    CONTACT CSS 
+
+    */
+
+    .contact-content{
+        border-style: solid;
+        border-top: hidden;
+        margin-top:-30px;
+    }
+
+
+    .contact-content h1 {
+        font-size: 40px; 
+        /*padding-top: 50px;*/
+        margin-left: 100px;
+
+    }
+
+
+
+    iframe {
+        margin-bottom: 20px;
+    }
+
+    .google {
+        margin-left: 530px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+    }
+
+    .google h1 {
+        margin-bottom: 20px;
+        padding-top: 50px;
+    }
+
+    .contact {
+        float: left;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .contact p {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .contact a {
+        text-decoration: none;
+        color: #62aafc;
+    }
+
+    .contact a:hover {
+        color: blue;
+    }
+
+.contact-email {
+
+    padding-top: 50px;
+    margin-left: 325px;
+   
+}
+.contact-email input{
+    background-color: #353541;
+    width: 505px;
+    height: 30px;
+    color: white;
+}
+
+.contact-subject {
+    padding-top: 30px;
+    margin-left: 295px;
+}
+.contact-subject input{
+    background-color: #353541;
+    width: 507px;
+    height: 30px;
+    color: white;
+}
+.contact-subject label{
+    background-color: white;
+}
+
+.contact-message {
+    padding-top: 30px;
+    margin-left: 235px;
+}
+
+.contact-message textarea {
+    background-color: #353541;
+    font-size: 15px;
+    color: white;
+}
+
+.contact-message label {
+    float: left;
+    margin-top: 50px;
+    padding-right: 5px;
+    margin-left: 58px;
+
+}
+
+.contact-btn button {
+    width: 504px;
+    margin-top: 20px;
+    margin-left: 425px;
+    background-color: #353541;
+    height: 50px;
+    border-radius: 12px;
+}
+.contact-btn:hover button{
+    background-color: blue;
+    color: white;
+}
+.contact-btn {
+    padding-bottom: 50px;
+}
+
+
+/* Submit CSS */
+
+
+.submit{
+    border-style: solid;
+}
+
+.submit-container label {
+    font-size: 20px;
+}
+
+
+.submit-title {
+    padding-top: 50px;
+    margin-left: 265px;
+}
+.submit-title input{
+    background-color: #353541;
+    width: 505px;
+    height: 30px;
+    color:white;
+}
+
+.submit-container input {
+    width: 500px;
+}
+
+.submit-image {
+    padding-top: 30px;
+    margin-left: 245px;
+}
+.submit-image input{
+    background-color: #353541;
+    width: 515px;
+    height: 30px;
+}
+.submit-image label{
+    background-color: white;
+}
+
+.submit-description {
+    padding-top: 30px;
+    margin-left: 120px;
+}
+
+.submit-description textarea {
+    background-color: #353541;
+    font-size: 15px;
+    color: white;
+}
+
+.submit-description label {
+    float: left;
+    margin-top: 50px;
+    padding-right: 5px;
+    margin-left: 56px;
+
+}
+
+.submit-heading h1 {
+    font-size: 40px;
+    margin-left: 440px; 
+    padding-top: 50px;
+}
+
+.submit-btn button {
+    width: 504px;
+    margin-top: 20px;
+    margin-left: 360px;
+    background-color: #353541;
+    height: 50px;
+    border-radius: 12px;
+}
+
+
+.submit-btn {
+    padding-bottom: 50px;
+}
+.submit-btn:hover button{
+    background-color: blue;
+    color: white;
+}
+.error {
+    color: red;
+}
+
+
+
+/* Register CSS */
+
+form{
+    border-style: solid;
+    border-top: hidden;
+}
+
+#register-p{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+legend {
+    font-size: 40px;
+    margin-left: 550px; 
+    padding-top: 50px; 
+}
+
+.Register{
+    border-style: solid;
+}
+
+.register-username {
+    padding-top: 50px;
+    margin-left: 400px;
+}
+.register-username input{
+    background-color: #353541;
+    width: 200px;
+    height: 25px;
+    color:  white;
+}
+
+/*.submit-container input {
+    width: 500px;
+}*/
+
+.register-Email {
+    padding-top: 30px;
+    margin-left: 463px;
+}
+.register-Email input{
+    background-color: #353541;
+    width: 200px;
+    height: 25px;
+    color: white;
+}
+
+
+.register-Password {
+    padding-top: 30px;
+    margin-left: 412px;
+}
+
+.register-Password input{
+    background-color: #353541;
+    width: 200px;
+    height: 25px;
+}
+.register-Password2 {
+    padding-top: 30px;
+    margin-left: 285px;
+}
+
+.register-Password2 input{
+    background-color: #353541;
+    width: 200px;
+    height: 25px;
+}
+
+
+.register-heading h1 {
+    font-size: 40px;
+    margin-left: 570px; 
+    padding-top: 50px;
+}
+
+.register-btn button {
+    width: 104px;
+    margin-top: 20px;
+    margin-left: 600px;
+    background-color: #353541;
+    height: 50px;
+    border-radius: 12px;
+
+}
+
+.register-btn {
+    padding-bottom: 50px;
+}
+
+.register-btn:hover button{
+    color: white;
+    background-color: blue;
+}
+.error {
+    color: red;
+}
+
+
+
+/* LOG IN CSS*/
+
+
+.login{
+    border-style: solid;
+}
+
+.login-username {
+    padding-top: 50px;
+    margin-left: 400px;
+}
+.login-username input{
+    background-color: #353541;
+    width: 200px;
+    height: 25px;
+    color: white;
+}
+
+/*.submit-container input {
+    width: 500px;
+}*/
+
+
+.login-password {
+    padding-top: 30px;
+    margin-left: 412px;
+}
+
+.login-password input{
+    background-color: #353541;
+    width: 200px;
+    height: 25px;
+}
+
+
+.login-legend {
+    font-size: 40px;
+    margin-left: 580px; 
+    padding-top: 50px;
+}
+
+#login-btn button {
+    width: 104px;
+    margin-left: 600px;
+    margin-top: 30px;
+    background-color: #353541;
+    height: 50px;
+    border-radius: 12px;
+
+}
+#login-btn:hover button{
+    background-color: blue;
+    color: white;
+}
+#login-btn {
+    padding-bottom: 50px;
+}
+.error {
+    color: red;
+}
+
+
+
+
+
